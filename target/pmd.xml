@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.13.0" timestamp="2019-10-30T19:29:13.123">
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/AirbnbWalletDaoImpl.java">
+<violation beginline="42" endline="42" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="AirbnbWalletDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/ApartmentsDaoImpl.java">
+<violation beginline="42" endline="42" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="ApartmentsDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/ApartmentsHasReservationsDaoImpl.java">
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="ApartmentsHasReservationsDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/BillingsDaoImpl.java">
+<violation beginline="42" endline="42" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="BillingsDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/BuyersDaoImpl.java">
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="BuyersDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/ReservationsDaoImpl.java">
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="ReservationsDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/DAO/implementation/SellersDaoImpl.java">
+<violation beginline="46" endline="46" begincolumn="21" endcolumn="26" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Error Prone" package="com.iot.DAO.implementation" class="SellersDaoImpl" method="findById" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#avoidbranchingstatementaslastinloop" priority="2">
+Avoid using a branching statement as the last in a loop.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java">
+<violation beginline="620" endline="621" begincolumn="70" endcolumn="13" rule="EmptyStatementBlock" ruleset="Error Prone" package="com.iot.ViewAndController" class="MyView" method="outputMenu" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+<violation beginline="631" endline="633" begincolumn="13" endcolumn="13" rule="EmptyStatementBlock" ruleset="Error Prone" package="com.iot.ViewAndController" class="MyView" method="outputSubMenu" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptystatementblock" priority="3">
+Avoid empty block statements.
+</violation>
+<violation beginline="652" endline="653" begincolumn="15" endcolumn="13" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.iot.ViewAndController" class="MyView" method="show" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/model/metadata/ColumnMetaData.java">
+<violation beginline="73" endline="73" begincolumn="18" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="com.iot.model.metadata" class="ColumnMetaData" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="74" endline="74" begincolumn="18" endcolumn="41" rule="UselessParentheses" ruleset="Code Style" package="com.iot.model.metadata" class="ColumnMetaData" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="75" endline="75" begincolumn="18" endcolumn="57" rule="UselessParentheses" ruleset="Code Style" package="com.iot.model.metadata" class="ColumnMetaData" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/transformer/Transformer.java">
+<violation beginline="6" endline="6" begincolumn="8" endcolumn="25" rule="DuplicateImports" ruleset="Code Style" package="com.iot.transformer" class="Transformer" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_codestyle.html#duplicateimports" priority="4">
+Avoid duplicate imports such as 'java.sql.ResultSet'
+</violation>
+<violation beginline="29" endline="29" begincolumn="29" endcolumn="34" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" variable="length" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'length'.
+</violation>
+<violation beginline="51" endline="51" begincolumn="37" endcolumn="42" rule="UnusedLocalVariable" ruleset="Best Practices" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" variable="length" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'length'.
+</violation>
+<violation beginline="66" endline="67" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="67" endline="68" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="68" endline="69" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="69" endline="70" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.iot.transformer" class="Transformer" method="fromResultSetToEntity" externalInfoUrl="https://pmd.github.io/pmd-6.13.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>

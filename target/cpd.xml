@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="50" tokens="150">
+      <file line="28"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/model/BuyersEntity.java"/>
+      <file line="26"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/model/SellersEntity.java"/>
+      <codefragment><![CDATA[    public BuyersEntity(Integer id, String email, String name, String surname, String phoneNumber, Date birthday) {
+        this.id = id;
+        this.email = email;
+        this.name = name;
+        this.surname = surname;
+        this.phoneNumber = phoneNumber;
+        this.birthday = birthday;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public Date getBirthday() {]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="145">
+      <file line="414"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="435"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[    private void createBuyers() throws SQLException {
+        System.out.println("Input ID(apartments_id) for Buyers: ");
+        Integer id = input.nextInt();
+        input.nextLine();
+        System.out.println("Input name for Buyers: ");
+        String name = input.next();
+        System.out.println("Input surname for Buyers: ");
+        String surname = input.next();
+        System.out.println("Input phoneNumber for Buyers: ");
+        String phoneNumber = input.next();
+        System.out.println("Input email for Buyers: ");
+        String email = input.next();
+        System.out.println("Input birthday for Buyers as (1999-01-23): ");
+        String str = input.next();
+        Date birthday = Date.valueOf(str);
+        BuyersEntity entity = new BuyersEntity(id, email, name, surname, phoneNumber, birthday);
+        BuyersService buyersService = new BuyersService();
+        int count = buyersService.create(entity);]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="127">
+      <file line="345"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="364"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[    private void createBillings() throws SQLException {
+        System.out.println("Input ID(id) for billings: ");
+        Integer id = input.nextInt();
+        input.nextLine();
+        System.out.println("Input date_payed for billings: ");
+        String str = input.nextLine();
+        Date enterDate = Date.valueOf(str);
+        System.out.println("Input buyers_id for billings: ");
+        Integer buyersId = input.nextInt();
+        System.out.println("Input sellers_id for billings: ");
+        Integer sellersId = input.nextInt();
+        System.out.println("Input price for billings: ");
+        Integer price = input.nextInt();
+        BillingsEntity entity = new BillingsEntity(id, enterDate, buyersId, sellersId, price);
+        BillingsService billingsService = new BillingsService();
+        int count = billingsService.create(entity);]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="124">
+      <file line="488"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="508"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[        System.out.println("Input ID(Id) for Sellers: ");
+        Integer id = input.nextInt();
+        input.nextLine();
+        System.out.println("Input name for Sellers: ");
+        String name = input.next();
+        System.out.println("Input surname for Sellers: ");
+        String surname = input.next();
+        System.out.println("Input phoneNumber for Sellers: ");
+        String phoneNumber = input.next();
+        System.out.println("Input email for Sellers: ");
+        String email = input.next();
+        System.out.println("Input birthday for Sellers as (1999-01-23): ");
+        String birthday = input.next();
+        SellersEntity entity = new SellersEntity(id, email, name, surname, phoneNumber, birthday);
+        SellersService sellersService = new SellersService();
+        int count = sellersService.create(entity);]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="118">
+      <file line="278"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="296"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[    private void createApartmentsHasReservations() throws SQLException {
+        System.out.println("Input ID(id) for ApartmentsHasReservations: ");
+        Integer id = input.nextInt();
+        input.nextLine();
+        System.out.println("Input apartmentsId for ApartmentsHasReservations: ");
+        Integer apartmentsId = input.nextInt();
+        System.out.println("Input buyers_id for ApartmentsHasReservations: ");
+        Integer buyersId = input.nextInt();
+        System.out.println("Input billings_id for ApartmentsHasReservations: ");
+        Integer billingsId = input.nextInt();
+        System.out.println("Input airbnb_wallet_id for ApartmentsHasReservations: ");
+        Integer airbnbWalletId = input.nextInt();
+        ApartmentsHasReservationsEntity entity = new ApartmentsHasReservationsEntity(id, apartmentsId, buyersId, billingsId, airbnbWalletId);
+        ApartmentsHasReservationsService apartmentsHasReservationsService = new ApartmentsHasReservationsService();
+        int count = apartmentsHasReservationsService.create(entity);]]></codefragment>
+   </duplication>
+   <duplication lines="13" tokens="103">
+      <file line="210"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="230"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[        System.out.println("Input sellerId for apartments: ");
+        Integer sellerId = input.nextInt();
+        System.out.println("Input roomsNumber for apartments: ");
+        Integer roomsNumber = input.nextInt();
+        System.out.println("Input bedsNumber for apartments: ");
+        Integer bedsNumber = input.nextInt();
+        System.out.println("Input hourPrice for apartments: ");
+        Integer hourPrice = input.nextInt();
+        System.out.println("Input address for apartments: ");
+        String address = input.next();
+        ApartmentsEntity entity = new ApartmentsEntity(id, sellerId, roomsNumber, bedsNumber, hourPrice, address);
+        ApartmentsService apartmentsService = new ApartmentsService();
+        int count = apartmentsService.create(entity);]]></codefragment>
+   </duplication>
+   <duplication lines="13" tokens="100">
+      <file line="560"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <file line="576"
+            path="/home/ostap/IdeaProjects/JDBC_lab_04_DB/src/main/java/com/iot/ViewAndController/MyView.java"/>
+      <codefragment><![CDATA[    private void createReservations() throws SQLException {
+        System.out.println("Input ID(reservation_id) for Reservations: ");
+        Integer id = input.nextInt();
+        input.nextLine();
+        System.out.println("Input settlement_date for Reservations: ");
+        String settlementDate = input.next();
+        System.out.println("Input leave_date for Reservations: ");
+        String leaveDate = input.next();
+        System.out.println("Input paid(0 or 1) for Reservations: ");
+        Integer paid = input.nextInt();
+        ReservationsEntity entity = new ReservationsEntity(id, settlementDate, leaveDate, paid);
+        ReservationsService reservationsService = new ReservationsService();
+        int count = reservationsService.create(entity);]]></codefragment>
+   </duplication>
+</pmd-cpd>
